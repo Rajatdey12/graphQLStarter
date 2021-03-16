@@ -3,11 +3,8 @@ const express = require('express');
 const { graphqlHTTP } = require('express-graphql'); 
 const { 
     GraphQLSchema, 
-    GraphQLObjectType, 
-    GraphQLString, 
-    GraphQLList, 
-    GraphQLNonNull, 
-    GraphQLInt } = require('graphql');
+    GraphQLObjectType,
+    GraphQLList } = require('graphql');
 
 const bookObject = require('./graphqQLObjects').BookType;
 const authorObject = require('./graphqQLObjects').AuthorType;
