@@ -1,0 +1,25 @@
+{
+  "name": "graphql-rajat",
+  "version": "1.0.0",
+  "description": "A graphQL server set-up using express express-graphql graphql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajatdey12/graphQLStarter.git"
+  },
+  "author": "rajat-dey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajatdey12/graphQLStarter/issues"
+  },
+  "homepage": "https://github.com/Rajatdey12/graphQLStarter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  }
+}
