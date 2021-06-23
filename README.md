@@ -3,7 +3,7 @@
  A graphQL server set-up using express express-graphql graphql
  
  * GRAPH QL SYNTAX QUERY
- 
+``` 
  query {
   book {
     authorid
@@ -15,3 +15,4 @@
     AuthName
   }
 }
+```
